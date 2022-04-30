@@ -1,0 +1,13 @@
+.nav {
+    height: 80px;
+    background-color: rgb(141, 141, 141);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+.links {
+    color: white;
+    letter-spacing: 0.6px;
+}
+

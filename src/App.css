@@ -1,10 +1,13 @@
-.logo {
-    width: 10%;
+body {
+    margin: 0;
 }
 
-.nav {
-    height: 80px;
-    background-color: black;
-    display: flex;
-    align-items: center;
+*{
+    font-family: Circular Std Book;
+    text-decoration: none;
+    list-style: none;
 }
+.logo {
+    width: 8%;
+}
+
