@@ -1,0 +1,29 @@
+main {
+    background-color: #2941AB;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main h1 {
+    margin: 0;
+    font-size: 97px;
+    font-weight: 900;
+    font-family: Circular Std Black Regular;
+    letter-spacing: -3.84px;
+    color: rgb(30, 215, 96);
+    margin-bottom: 35px;
+}
+main span {
+    color: rgb(30, 215, 96);
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 35px;
+}   
+main a {
+    background-color: rgb(30, 215, 96);
+    padding: 14px 32px;
+    border-radius: 500px;
+    color: #2941AB;
+}
