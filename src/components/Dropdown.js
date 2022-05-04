@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 import "../components/Header.css";
 import {MenuItems} from './MenuItems'
+import { Link } from "react-router-dom";
+
 
 export default function Dropdown() {
   const [click, setClick] = useState(false)
@@ -14,9 +16,9 @@ export default function Dropdown() {
             {MenuItems.map((item, index) => {
                 return(
                     <li key={index}>
-                        <a href={item.path} className={item.cName} onClick={() => setClick(!click)}>
+                        <Link to={item.path} className={item.cName} onClick={() => setClick(!click)}>
                             {item.title}
-                        </a>
+                        </Link>
                     </li>
                 )            
             })}

@@ -1,0 +1,19 @@
+.flex-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.acc-side_bar{
+    background-color: #1B1B1B;
+    height: 400px;
+    width: 242.5px;
+}
+.acc-right_side{
+    background-color: #FFFFFF;
+    height: 400px;
+    width: 727.5px;
+}
+.acc-bg {
+    background-color: #212C39;
+}
