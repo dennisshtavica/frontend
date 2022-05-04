@@ -11,3 +11,147 @@ body {
     width: 8%;
 }
 
+.container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-wrapper{
+    margin-left: 50px;
+}
+.title{
+    margin-top: 30px;
+    padding-top: 63px;
+
+}
+.signup-buttons{
+
+}
+.button{
+
+}
+#facebook-btn{
+    width: 80%;
+    background-color: #3b5998;
+    color: white;
+    border-radius: 45px;
+    font-size: 18px;
+    padding:10px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+#google-btn{
+    margin-top: 20px;
+    width: 80%;
+    border-radius: 45px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding:10px;
+    margin-left: 30px;
+}
+h3{
+    margin-left: 20%;
+    margin-top: inherit;
+}
+hr{
+    margin-top: 40px;
+    width:28%;
+    display:inline-block;
+    margin-left: 40px;
+}
+.dotline{
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+label{
+    font-weight: bold;
+}
+.email{
+    margin-left: 10px;
+}
+#email{
+    width: 85%;
+    height: 40px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+#conf-email{
+    width: 85%;
+    height: 40px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.password-1{
+    margin-left: 10px;
+}
+#password{
+    width: 85%;
+    height: 40px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.profile-name{
+    margin-left: 10px;
+}
+#username{
+    width: 85%;
+    height: 40px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.birthday{
+    margin-left: 10px;
+}
+#birthday-1{
+    width: 85%;
+    height: 40px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.c-gender{
+    margin-left: 10px;
+}
+#gender-m{
+    margin-top: 20px;
+    padding-left: 30px;
+}
+#gender-f{
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.confirmations{
+    margin-left: 10px;
+
+}
+.terms{
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    font-size: 12px;
+}
+
+.subm-btn{
+    margin-left: 30%;
+
+}
+input[type=submit]{
+    background-color:#1ed760;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px 50px;
+    border-style: none;
+}
+input[type=checkbox]:checked{
+    background-color: #5bcd3e;
+}
+a{
+    color: #5bcd3e;
+}
+

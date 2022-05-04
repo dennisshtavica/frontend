@@ -5,6 +5,8 @@ import HomePage from "./components/HomePage";
 import Footer from "./components/Footer";
 import "./App.css";
 import Account from "./components/pages/Account";
+import Form from "./components/pages/signUpForm";
+import Login from "./components/pages/Login";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage/>}/>
           <Route path="/account" element={<Account/>}/>
+          <Route path="/signup" element={<Form/>}/>
+          <Route path="/login" element={<Login/>}/>
         </Routes>
         <Footer />
       </div>
