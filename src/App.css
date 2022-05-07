@@ -42,6 +42,12 @@ body {
     margin-left: 30px;
     font-weight: bold;
 }
+#facebook-btn:hover{
+    border: 1px solid;
+}
+#google-btn:hover{
+    border: 1px solid;
+}
 #google-btn{
     margin-top: 20px;
     width: 80%;
@@ -81,6 +87,13 @@ label{
     margin-top: 15px;
     padding-left: 10px;
 }
+#email:hover{
+    border: 1px solid;
+
+}
+#conf-email:hover{
+    border: 1px solid;
+}
 #conf-email{
     width: 85%;
     height: 40px;
@@ -90,6 +103,9 @@ label{
 .password-1{
     margin-left: 10px;
 }
+#password:hover{
+    border: 1px solid;
+}
 #password{
     width: 85%;
     height: 40px;
@@ -98,6 +114,9 @@ label{
 }
 .profile-name{
     margin-left: 10px;
+}
+#username:hover{
+    border: 1px solid;
 }
 #username{
     width: 85%;
@@ -148,9 +167,11 @@ input[type=submit]{
     padding: 20px 50px;
     border-style: none;
 }
-input[type=checkbox]:checked{
-    background-color: #5bcd3e;
+input[type=submit]:hover{
+    font-size: 17px;
+    display: block;
 }
+
 a{
     color: #5bcd3e;
 }

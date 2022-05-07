@@ -56,7 +56,7 @@ const SignUpForm = () => {
                     </div>
                     <div className="password-1">
                         <label htmlFor="password" >Create password</label><br/>
-                        <input type="password" id="password" name="password" placeholder="Creat a password" value={values.password} onChange={handleChange}/><br/><br/>
+                        <input type="password" id="password" name="password" placeholder="Create a password" value={values.password} onChange={handleChange}/><br/><br/>
                     </div>
                     <div className="profile-name">
                         <label htmlFor="username" >What should we call you?</label><br/>
