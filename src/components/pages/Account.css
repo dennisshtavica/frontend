@@ -1,19 +1,32 @@
 .flex-account {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.acc-side_bar{
-    background-color: #1B1B1B;
-    height: 400px;
-    width: 242.5px;
+.acc-side_bar {
+  background-color: #1b1b1b;
+  height: 100vh;
+  width: 242.5px;
 }
-.acc-right_side{
-    background-color: #FFFFFF;
-    height: 400px;
-    width: 727.5px;
+.acc-right_side {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 727.5px;
+  padding: 48px;
+}
+.acc-right_side h1 {
+  font-weight: 900;
+  font-family: Circular Std Black Regular;
+  font-size: 48px;
+  margin: 0 0 20px 0;
+}
+.acc-right_side h3 {
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+  font-family: Circular Std Black Regular;
+  font-size: 24px;
 }
 .acc-bg {
-    background-color: #212C39;
+  background-color: #212c39;
 }

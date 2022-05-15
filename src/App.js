@@ -8,6 +8,7 @@ import Account from "./components/pages/Account";
 import Form from "./components/pages/signUpForm";
 import Login from "./components/pages/Login";
 
+
 function App() {
     return (
         <BrowserRouter>

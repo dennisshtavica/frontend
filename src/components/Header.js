@@ -4,33 +4,18 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 import { MenuItems } from "./MenuItems";
 import Dropdown from "./Dropdown";
+import HomePage from "./HomePage";
 
 function Header() {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
 
-  // const handleClick = () => setClick(!click)
-
-  // const onMouseEnter = () => {
-  //   if(window.innerWidth < 960){
-  //     setDropdown(false)
-  //   }
-  //   else {
-  //     setDropdown(true)
-  //   }
-  // }
-
-  //   const onMouseLeave = () => {
-  //     if (window.innerWidth < 960) {
-  //       setDropdown(false);
-  //     } else {
-  //       setDropdown(false);
-  //     }
-  //   };
-
   return (
     <nav className="nav">
-      <UserIcon />
+        <Link to="/" className="logo-link">
+          <UserIcon />
+        </Link>
+ 
 
       <div className="right-side">
         <a href="" className="links">

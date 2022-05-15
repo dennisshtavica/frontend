@@ -5,10 +5,21 @@
     align-items: center;
     justify-content: space-around;
     font-weight: bold;
+    
 }
+/* .left-side {
+    margin-right: 100px;
+} */
 .logo {
     object-fit: cover;
 }
+.logo-link {
+    width: 100px;
+}
+.logo-link img {
+    width: 120%;
+}
+
 .logo4 {
     width: 50%;
 }
