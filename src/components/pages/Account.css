@@ -6,7 +6,11 @@
 .acc-side_bar {
   background-color: #1b1b1b;
   height: 100vh;
-  width: 242.5px;
+  width: 200px;
+  padding: 48px;
+}
+.acc-side_bar ul{
+  padding: 0;
 }
 .acc-right_side {
   background-color: #ffffff;
@@ -29,4 +33,25 @@
 }
 .acc-bg {
   background-color: #212c39;
+}
+.profileTable{
+  margin-top: 50px;
+}
+.hrLine {
+  width: auto;
+  height: 1px;
+  background-color: #212c39;
+}
+.flex_profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit_profile {
+  background-color: white;
+  padding: 15px 25px;
+  border-radius: 50px;
+  border: 1px solid gray;
+  margin-top: 20px;
+  cursor: pointer;
 }

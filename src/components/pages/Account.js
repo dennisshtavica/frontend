@@ -27,12 +27,35 @@ export default function Account(){
             </div>
 
             <div className="acc-right_side">
-                <h1>Account overview</h1>
-                <h3>Profile</h3>
+              <h1>Account overview</h1>
+              <h3>Profile</h3>
+              <div className="profileTable">
+                <div className="flex_profile">
+                  <p>Username</p>
+                  <p>gewgqgergrqfewfewfwewegrqegqerg</p>
+                </div>
+                <div className="hrLine"></div>
+                <div className="flex_profile">
+                  <p>Email</p>
+                  <p>gewgqgergrqfewfewfwewegrqegqerg</p>
+                </div>
+                <div className="hrLine"></div>
+                <div className="flex_profile">
+                  <p>Date of Birth</p>
+                  <p>gewgqgergrqfewfewfwewegrqegqerg</p>
+                </div>
+                <div className="hrLine"></div>
+                <div className="flex_profile">
+                  <p>Country or region</p>
+                  <p>gewgqgergrqfewfewfwewegrqegqerg</p>
+                </div>
+                <div className="hrLine"></div>
+                <button className='edit_profile'>Edit profile</button>
+              </div>
             </div>
           </div>
         </div>
-        <Footer/>
+        <Footer />
       </>
     );
 }
